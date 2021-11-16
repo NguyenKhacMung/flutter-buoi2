@@ -14,7 +14,7 @@ class PageControl extends StatefulWidget {
 class _PageControlState extends State<PageControl> {
   @override
   Widget build(BuildContext context) {
-    final PageController controller = PageController(initialPage: 3);
+    final PageController controller = PageController(initialPage: 4);
 
     @override
     void dispose() {

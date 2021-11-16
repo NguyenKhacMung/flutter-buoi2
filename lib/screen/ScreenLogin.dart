@@ -20,7 +20,7 @@ class _loginState extends State<login> {
       mainAxisAlignment: MainAxisAlignment.end,
       children: [
         Container(
-          height: height * (227 / 896),
+          height: height * 0.2,
           width: width,
           child: Image.asset(
             "images/img4.png",

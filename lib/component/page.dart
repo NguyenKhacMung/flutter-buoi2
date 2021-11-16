@@ -47,7 +47,7 @@ class _HomeState extends State<Home> {
               height: mediaQuery.size.height * 0.2,
             ),
             Container(
-              height: 227,
+              height: mediaQuery.size.height * 0.3,
               width: mediaQuery.size.width,
               child: Image.asset(
                 widget.img,

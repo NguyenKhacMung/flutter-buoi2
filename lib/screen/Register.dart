@@ -16,7 +16,7 @@ class _registerState extends State<register> {
     final _formKey = GlobalKey<FormState>();
     return SingleChildScrollView(
       child: Container(
-        padding: const EdgeInsets.all(30),
+        padding: const EdgeInsets.all(20),
         child: Column(
           children: [
             GestureDetector(
@@ -41,14 +41,14 @@ class _registerState extends State<register> {
             ),
             Container(
               alignment: Alignment.topLeft,
-              margin: const EdgeInsets.only(bottom: 20),
+              margin: const EdgeInsets.only(bottom: 10),
               child: Text(
                 "Create account to find best Furniture",
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),
             ),
             Container(
-              height: height * (227 / 896),
+              height: height * 0.2,
               width: width,
               margin: const EdgeInsets.only(bottom: 10),
               child: Image.asset(
@@ -85,7 +85,7 @@ class _registerState extends State<register> {
                       },
                     ),
                     SizedBox(
-                      height: 15,
+                      height: height * 0.01,
                     ),
                     TextFormField(
                       style: TextStyle(
@@ -108,7 +108,7 @@ class _registerState extends State<register> {
                       },
                     ),
                     SizedBox(
-                      height: 15,
+                      height: height * 0.01,
                     ),
                     TextFormField(
                       style: TextStyle(
@@ -131,7 +131,7 @@ class _registerState extends State<register> {
                       },
                     ),
                     SizedBox(
-                      height: 15,
+                      height: height * 0.01,
                     ),
                     TextFormField(
                       style: TextStyle(
@@ -154,7 +154,7 @@ class _registerState extends State<register> {
                       },
                     ),
                     SizedBox(
-                      height: 15,
+                      height: height * 0.01,
                     ),
                     TextFormField(
                       style: TextStyle(
@@ -177,7 +177,7 @@ class _registerState extends State<register> {
                       },
                     ),
                     SizedBox(
-                      height: 15,
+                      height: height * 0.01,
                     ),
                     Container(
                       width: double.infinity,
